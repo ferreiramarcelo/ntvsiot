@@ -4,7 +4,8 @@
   
   <ItemGroup>
     <ProjectFile Include="..\Product\NodejsUwp.csproj"/>
-	<ProjectFile Include="setup.proj"/>
+	<!-- Uncomment if building with BuildRelease.ps1 script -->
+	<!--<ProjectFile Include="setup.proj"/>-->
   </ItemGroup>
 
   <Import Project="$(TargetsPath)\Common.Build.Traversal.targets" />
