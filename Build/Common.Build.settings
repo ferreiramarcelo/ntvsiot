@@ -114,9 +114,6 @@
     
     <!-- Features default to true for release builds -->
     <FeatureAzureRemoteDebug>$(ReleaseBuild)</FeatureAzureRemoteDebug>
-    
-    <!-- Enable features based on VS versions -->
-    <FeatureAzureRemoteDebug Condition="$(VSMajorVersion) > 12 or ($(VSMajorVersion) == 12 and $(VSUpdateVersion) >= 30723)">true</FeatureAzureRemoteDebug>
   </PropertyGroup>
   
   <ItemDefinitionGroup>
