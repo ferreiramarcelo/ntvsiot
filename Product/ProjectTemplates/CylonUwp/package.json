@@ -9,9 +9,12 @@
     "email": ""
   },
   "dependencies": {
-    "cylon": "~1.1.0",
+
+    "cylon": "~1.3.0",
     "cylon-firmata": "~0.22.0",
+
     "cylon-gpio": "~0.30.1",
+
     "cylon-i2c": "~0.22.0"
   },
   "target_arch": "arm",
